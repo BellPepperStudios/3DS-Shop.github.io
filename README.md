@@ -2,7 +2,7 @@
 A shop where you can get stuff on your 3ds For your 3ds
 
 # download
-when it relewses you will be able to download it from github and from the website which is link.
+when it releases you will be able to download it from github and from the website which is link.
 
 # reward points
 for downloading games on our app you can earn reward points and get prizes (i dont know what the prizes are yet)
