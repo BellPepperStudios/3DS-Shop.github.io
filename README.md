@@ -12,3 +12,6 @@ our app makes it very ewsy to download games all you need is fbi downloaded on y
 
 # try now
 this will release some time when i finish it but heres the website link with more updates about the app - https://bellpepperstudios.github.io/3DS-Shop.github.io/
+
+# credit/inspiration
+a friend of mine made a app call wii mart which inspired me to make this but for the 3ds - friends profile: 
