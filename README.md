@@ -1,5 +1,4 @@
 ![Alt Text](img/3dslogofinal.png)
-A shop where you can get stuff on your 3ds For your 3ds
 
 # download
 when it releases you will be able to download it from github and from the website which is link.
