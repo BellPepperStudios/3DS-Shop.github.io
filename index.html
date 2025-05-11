@@ -1,19 +1,52 @@
 <html>
     <head>
-        <title>DS Shop</title>
-        <link rel="stylesheet" type="text/css" href="styles.css">
+        <title>3DS Shop</title>
         <link rel="icon" type="image/x-icon" href="img/3dsicon.ico">
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
     </head>
     <body>
         <center>
+        <div class="w3-container w3-center w3-animate-zoom">
             <header>
-                <img src="img/3dslogofinal.png" alt="DS Shop Logo" width="300" height="50">
+                <img src="img/3dslogofinal.png" alt="DS Shop Logo" width="300" height="50" style="margin-top: 20px;">
             </header>
             <p>This Site is currently in testing</p>
-            <a href="test.txt" download="test.txt">Download Test File</a>
-            <footer>
-                <p>&copy; 2023 DS Shop. All rights reserved.</p>
-            </footer>
+            <p>Hey, welcome to 3DS Shop this site is a app where you can browse 3DS games but with a bit more fun. You can earn reward points for downloading games and spend these points in the point shop.</p>
+            <br>
+            <h3>Gallery</h3>
+            <div class="slideshow-container">
+                <div class="mySlides active">
+                    <img src="img/gallary-img/menu.png" style="width:100%">
+                    <div class="text">Main Menu</div>
+                </div>
+
+                <div class="mySlides">
+                    <img src="img/gallary-img/shop.png" style="width:100%">
+                    <div class="text">Main Shop</div>
+                </div>
+
+            <div class="mySlides fade">
+                <img src="img/gallary-img/ingame.png" style="width:500px">
+                <div class="text">Selected Game</div>
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)"><img src="img/arrow.png" style="transform: scaleX(-1);"></a>
+            <a class="next" onclick="plusSlides(1)"><img src="img/arrow.png"></a>
+
+            </div>
+            <br>
+
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span> 
+                <span class="dot" onclick="currentSlide(2)"></span> 
+                <span class="dot" onclick="currentSlide(3)"></span> 
+            </div>
+            
+            <a href="gameids.html"><button href="gameids.html" class="w3-button w3-white w3-round-large" style="margin-top: 20px; transition: 0.3s;">Game IDs</button></a>
+        </div>
+        
         </center>
+        <script src="javascript/script.js"></script>
     </body>
 </html>
