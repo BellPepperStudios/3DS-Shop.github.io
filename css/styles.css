@@ -57,16 +57,31 @@ li {
 .next {
   right: 0;
   border-radius: 40px 0 0 40px;
+  transition: .3s;
 }
 
 .prev {
   left: 0;
   border-radius: 0 40px 40px 0;
-  transition: .3;
+  transition: .3s;
 }
 
 .prev:hover, .next:hover {
   background-color: rgb(211, 211, 211);
+  transition: .3s;
+}
+
+.prev:active, .next:active {
+  width: 38px;
+  height: 68px;
+}
+
+button {
+    transition: transform .3s;
+}
+
+button:active {
+    transform: scale(1.1);
 }
 
 .text {
